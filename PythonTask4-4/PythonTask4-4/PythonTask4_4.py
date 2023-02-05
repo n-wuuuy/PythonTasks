@@ -6,7 +6,7 @@ def enclosing_funcion():
 
     def inner_function():
 
-        global a 
+        nonlocal a 
         print(a)
     return inner_function()
 
