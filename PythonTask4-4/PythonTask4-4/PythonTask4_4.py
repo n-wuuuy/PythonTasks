@@ -6,7 +6,7 @@ def enclosing_funcion():
 
     def inner_function():
 
-        a = "I am local variable!"
+        global a 
         print(a)
     return inner_function()
 
